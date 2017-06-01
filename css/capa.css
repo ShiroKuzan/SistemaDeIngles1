@@ -1,0 +1,156 @@
+@import url('menu.css');/*Modelo de cajas
+ *buscar cheat-sheet css3*/
+
+#contenedor
+{
+    background-color: #704D4D;
+    width: 900px;
+    height: 2000px;
+    margin:0 auto;/*esto me permite centrar en la parte horizontal.*/
+    background:#4F2A2A;
+    
+}
+#encabezado
+{
+    background: url('images/g-icon.jpg') no-repeat 10px 10px / 50px 80px;
+    color: #E01111;
+    width: 100%;
+    height: 100px;
+    margin: 0 auto;/*cerrado*/
+    background-color: #F4EFEF;
+}
+body
+{
+    font-size: 62.5%;
+}
+#navecacion
+{
+    width: 98%;
+    height: 75px;
+    /*border: 10px dotted #232368;*/
+    margin:0 auto;
+}
+#pie
+{
+    width: 100%;
+    height: 50px;
+    /*border: 10px groove #417F1D;*/
+    margin:0 auto;
+    background-color: #665858;
+    color: #000;
+    
+}
+#cuerpo
+{
+    color: #D8D2D2;
+    width: 100%;
+    height: 800px;
+    margin:0 auto;
+    background: #000;
+    
+}
+#izquierda{
+    float: right;
+    width:30%;
+    height: auto;
+    background-color: #DD9D9D;
+    width:30%;
+    height:auto;
+}
+#derecha{
+    
+    width:30%;
+    height:auto;
+    
+}
+#encabezado .titulo{
+    font-size:2.5em;
+    float:right;
+    line-height:100px;
+    padding-right:20px;
+}
+
+/*
+#navecacion
+{
+        color: #FCF9F9;
+    width: 400px;
+    height: 250px;
+    margin: 0 auto;
+    background-color: #000;
+}
+#cuerpo
+{
+    color: #B5122A;
+    width: 400px;
+    height: 250px;
+    margin: 0 auto;
+    background-color: #06186B;
+}
+#pie
+{
+    color: #b5122a;
+    width: 400px;
+    height:  250px;
+    margin: 0 auto;
+    background-color: #10172D;
+        
+}
+p{
+    color: #FCFCFC;
+    font-style: normal;
+}
+body 
+{
+    background-color: #C63D3D
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

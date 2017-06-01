@@ -1,0 +1,21 @@
+.estilonormal{
+    color:#fff;
+    font-family:Times;
+}
+body{
+    background-color: #680505;
+    padding-right:15px;padding-left:15px;margin-right:auto;margin-left:auto;
+}
+.cuerpofooter{
+    background-color: #2B2626;
+    color:#fff;
+    border-bottom-left-radius:40px;
+    border-bottom-right-radius:40px;
+    
+}
+.cuerpoprincipal{
+    background-color: #2B2626;
+    color:#fff;
+    border-top-left-radius:40px;
+    border-top-right-radius:40px;
+}

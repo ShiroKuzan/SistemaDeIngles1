@@ -1,0 +1,15 @@
+/*Comentarios
+ *Conformacion de un archivo
+ *atraves de reglas a su vez una regla se conforma de:
+ *  selector declaracion y
+ *  una declaracion se conforma de pares {propiedad:valor;},{propiedad2:valor2;}
+ *  */
+ 
+ body{
+    background-color: #7A0D2E;
+    
+ }
+ /*este es una arguumento de tipo class por el punto.*/.titulo{
+    color: #0C2B8E;
+    font-size: 50px;
+ }

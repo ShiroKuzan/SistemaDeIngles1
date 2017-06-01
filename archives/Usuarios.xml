@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?><!--iso-8859-1 es para que sea el tecldo de espanol para que admita el enie y los acentos-->
+<usuarios>
+    <usuario>
+        <tipo>A</tipo>
+        <mobre>Luis</mobre>
+        <idusuario>ll</idusuario>
+        <password></password>
+        <email>aa@.com.mx</email>
+    </usuario>
+    <usuario>
+        <tipo>A</tipo>
+        <mobre>Pepe</mobre>
+        <idusuario>lk</idusuario>
+        <password></password>
+        <email>aa@.com.mx</email>
+    </usuario>
+    <usuario>
+        <tipo>A</tipo>
+        <mobre>Andres</mobre>
+        <idusuario>lf</idusuario>
+        <password></password>
+        <email>aa@.com.mx</email>
+    </usuario>
+</usuarios>

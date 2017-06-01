@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Formulario</title>
+</head>
+
+<body>
+    <form action="" method="post">
+        <!-- Etiquetas basicas para formulario -->
+        <fieldset>
+            <legend>Datos</legend>
+            <label for="nombre">Nombre:</label>&nbsp;&nbsp;
+            <input type="text" name="nombre" id="nombre" maxlength="60" size="30" required="required">
+            <br>
+            <label for="rfc">RFC:</label>&nbsp;&nbsp;
+            <input type="text" name="rfc" id="rfc" maxlength="13" required="required">
+            <br>
+            <label for="colorPiel">Color Piel:</label>
+            <input type="color" name="colorPiel" id="colorPiel">
+            <br>
+            <label for="fechaNacimiento">FechaNacimiento:</label>
+            <input type="date" name="fechaNacimiento" id="fechaNacimiento">
+        </fieldset>
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+
+</html>

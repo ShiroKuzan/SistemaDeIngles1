@@ -1,0 +1,19 @@
+.logo{
+    background: url('images/g-icon.jpg');
+}
+.titulo{
+    padding-left:170px;
+}
+@media screen and (max-width:768px){.logo{display: none;}}
+.reducido{
+    width:98%;
+    margin:0 auto;
+}
+.panel-dark{
+    background-color: #000000;
+    color:#fff;
+}
+.btn-dark{
+    background-color: #282323;
+    color:#fff;
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE>
+<html lang ="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content= "width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Tablas</title>
+	<style>
+		.datos,th,td{
+		border: 1px solid #0F0;
+		border-collapse: collapse;
+	}
+	.datos tr:hover{
+	background: #00F;
+	}
+	.centrado{
+		text-align: center;
+	}
+	</style>
+<body>
+	<!-- table.datos>tr*6>(td{Datos $})*3 	TAB-->
+
+	<table class="datos">
+	<!--tr>th*3(Encabezado$) TAB-->
+	<tfoot>
+		<tr>
+			<td colspan="3" class="centrado">
+				Fuente: Libro X
+			</td>
+		</tr>
+	</tfoot><!--pie de tabla-->
+	
+	<tbody><!--cuerpo de tabla-->
+	<tr>
+		<td rowspan="2">Datos1</td>
+		<td>Datos2</td>
+		<td>Datos3</td>
+	</tr>
+	<tr>
+		<!--<td>Datos1</td><!-- merge con el primer dato 1-->
+		<td>Datos2</td>
+		<td>Datos3</td>
+	</tr>
+	<tr>
+		<td>Datos1</td>
+		<td>Datos2</td>
+		<td>Datos3</td>
+	</tr>
+	<tr>
+		<td>Datos1</td>
+		<td>Datos2</td>
+		<td>Datos3</td>
+	</tr>
+	</tbody>
+	<thead><!--encabezado de tabla-->
+	<tr>
+	<th>Encabezado 1</th>
+	<th>Encabezado 2</th>
+	<th>Encabezado 3</th>
+	</tr>
+	</thead>
+	</table>
+	
+</body>
+</html>

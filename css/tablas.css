@@ -1,0 +1,17 @@
+.datos,th,td{
+    border:1px solid #0f0;
+    border-collapse: collapse;
+}
+.datos tbody tr:hover{
+    background: #f00;
+}
+div#mensaje{
+    
+    background-color:#f00;
+}
+.error{
+    /*
+     *asegurese que funciona para todos los browser
+     *aqui se omite*/
+    transform:translate(200px,-40px);
+}

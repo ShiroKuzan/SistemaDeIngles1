@@ -1,0 +1,20 @@
+ul.menu{
+    width:90%;
+    list-style:none;
+    overflow:hidden;
+    margin:20px auto;
+}
+ul.menu li{
+    float:left;
+}
+/*selectores con pseudoclasses*/
+ul.menu li:hover{
+    background:#6D0202;
+    border-radius: 10px;
+}
+ul.menu li a{
+    text-decoration:none;
+    color:#fff;
+    padding:10px;
+    display: inline-block;/*el inline block es para que este un poco mas grande el background de la lista cuando hacemos el hover*/
+}

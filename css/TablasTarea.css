@@ -1,0 +1,115 @@
+.flag{
+    background: url('../images/banderas.png') no-repeat;
+    
+}
+.ENG{
+    background-position: 0 0;
+    width: 100px;
+    height: 94px;
+    background-size: 300px;
+    
+}
+.MEX{
+    background-position: center;
+    width: 100px;
+    height: 94px;
+    background-size: 300px;
+}
+.BRA{
+    background-position: -200px -190px;
+    width: 100px;
+    height: 94px;
+    background-size: 300px;
+}
+.USA{
+    background-position: -200px 0;
+    width:100px;
+    height:94px;
+    background-size: 300px;
+}
+.ALE{
+    background-position: 0 -200px;
+    width: 100px;
+    height:94px;
+    background-size: 300px;
+}
+.UN{
+    background-position: 0 -100px;
+    width: 100px;
+    height: 94px;
+    background-size: 300px;
+}
+.FRA{
+    background-position: -100px 0;
+    width: 100px;
+    height:94px;
+    background-size:300px;
+}
+.COREA{
+    background-position: -100px -200px;
+    width:100px;
+    height:94px;
+    background-size:300px;
+}
+.SPA{
+    background-position: -200px -100px;
+    width:100px;
+    height:94px;
+    background-size:300px;
+}
+#encabezado .titulo{
+    font-size:2.5em;
+    float:right;
+    line-height:100px;
+    padding-right:20px;
+}
+#encabezado
+{
+    background: url('images/g-icon.jpg') no-repeat 10px 10px / 50px 80px;
+    color: #E01111;
+    width: 100%;
+    height: 100px;
+    margin: 0 auto;/*cerrado*/
+    background-color: #F4EFEF;
+}
+#contenedor
+{
+    background-color: #843939;
+    width: 900px;
+    margin:0 auto;/*esto me permite centrar en la parte horizontal.*/
+    background:#204363;
+    
+}
+#cuerpo
+{
+    color: #23417A;
+    width: 100%;
+   /* height: 800px;*/
+    margin:0 auto;
+    background: #204363;
+    
+}
+#pie
+{
+    width: 100%;
+    height: 50px;
+    /*border: 10px groove #417F1D;*/
+    margin:0 auto;
+    background-color: #665858;
+    color: #000;
+    
+}
+body{
+    background-color:#CEC4C4;
+}
+
+
+
+
+
+
+
+
+
+
+
