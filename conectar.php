@@ -1,8 +1,8 @@
 <?php
-define('SERVIDOR','localhost');
-define('USUARIO','root');
-define('PASSWORD','zero');
-define('BASEDATOS','ingles');
+define('SERVIDOR','31.170.166.68');
+define('USUARIO','u471766250_siiro');
+define('PASSWORD','greenday64');
+define('BASEDATOS','u471766250_ingle');
 define('TIPO','mysqli');
 
 require_once('lib/adodb/adodb.inc.php');
